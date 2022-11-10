@@ -1,35 +1,23 @@
-Personagens:
-  1: Xerife
-  2: Pistoleiro
-  3: Fazendeiro
+Pasts/Class:
+  1: Sheriff
+  2: Gunslinger
+  3: Farmer
 
-Aventuras:
-  1: Ajudar os fazendeiros a enfrentar um temido bandido.
-  2: Escoltar uma diligência que vai passar por terras perigosas.
-  3: Roubar o banco.
+Adventures:
+  1: Help the farmers to defeat the dreaded criminal.
+  2: Escort a stagecoach to Capital City.
 
-ROUBAR O BANCO:
-  1: Encontrar os criminosos que estão na mesa dos fundos do bar.
-  2: Convencê-los a lhe contarem o plano
-  3: No dia do assalto, entrar no banco, acessar o cofre, explodir ou levar o cofre.
-  4: fugir da polícia.
-  5: enfrentar os bandidos, que vão tentar lhe passar a perna.
 
-ESCOLTAR DILIGÊNCIA:
-  1: Encontrar os passageiros na cozinha da hospedaria.
-  2: Levá-los pelo caminho certo, informado pelo xerife.
-  3: Enfrentar um grupo de bandidos, que sempre vai vencer.
-  4: Ser salvo pela cavalaria no último minuto.
+ESCORT STAGECOACH:
+  1: Find the passengers in the hotel kitchen.
+  2: Guide them trough the right way, described by the sheriff.
+  3: Face a group of bandits, that will always win.
+  4: Be salved by the cavalry in the last minute.
 
-AJUDAR FAZENDEIROS
-  1: Encontrar os fazendeiros na delegacia. Aceitar a missão.
-  2: Juntar mais 3 pistoleiros para seu grupo. Eles estão no bar.
-  3: Ir para a fazenda.
-  4: Lutar contra os bandidos.
-  5: vencer.
+HELP FARMERS:
 
-Primeira sala: A cidade de Still Water
+First room: The town of Still Water
   1: Bar;
-  2: Banco;
-  3: Hospedaria;
-  4: Delegacia;
+  2: Bank;
+  3: Hotel;
+  4: Precinct;
