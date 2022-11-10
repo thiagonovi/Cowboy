@@ -20,4 +20,4 @@ First room: The town of Still Water
   1: Bar;
   2: Bank;
   3: Hotel;
-  4: Precint;
+  4: Precinct;
