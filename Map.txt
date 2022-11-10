@@ -1,0 +1,35 @@
+Personagens:
+  1: Xerife
+  2: Pistoleiro
+  3: Fazendeiro
+
+Aventuras:
+  1: Ajudar os fazendeiros a enfrentar um temido bandido.
+  2: Escoltar uma diligência que vai passar por terras perigosas.
+  3: Roubar o banco.
+
+ROUBAR O BANCO:
+  1: Encontrar os criminosos que estão na mesa dos fundos do bar.
+  2: Convencê-los a lhe contarem o plano
+  3: No dia do assalto, entrar no banco, acessar o cofre, explodir ou levar o cofre.
+  4: fugir da polícia.
+  5: enfrentar os bandidos, que vão tentar lhe passar a perna.
+
+ESCOLTAR DILIGÊNCIA:
+  1: Encontrar os passageiros na cozinha da hospedaria.
+  2: Levá-los pelo caminho certo, informado pelo xerife.
+  3: Enfrentar um grupo de bandidos, que sempre vai vencer.
+  4: Ser salvo pela cavalaria no último minuto.
+
+AJUDAR FAZENDEIROS
+  1: Encontrar os fazendeiros na delegacia. Aceitar a missão.
+  2: Juntar mais 3 pistoleiros para seu grupo. Eles estão no bar.
+  3: Ir para a fazenda.
+  4: Lutar contra os bandidos.
+  5: vencer.
+
+Primeira sala: A cidade de Still Water
+  1: Bar;
+  2: Banco;
+  3: Hospedaria;
+  4: Delegacia;
