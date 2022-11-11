@@ -1,10 +1,17 @@
 #from sys import argv
 #script, name, past, past_answer = argv
 
+import os
+
 prompt = "> "
+
+def cleanConsole():
+    command = "clear"
+    os.system(command)
 
 print("What's your name, cowboy?")
 name = input(prompt)
+cleanConsole()
 
 def past_menu():
     print(f"""What's your past, {name}?
@@ -12,6 +19,7 @@ def past_menu():
 2. A gunslinger, searching someone who needs your services.
 3. A sheriff, searching a dangerous criminal who just escaped from prison.""")
     past = input(prompt)
+    cleanConsole()
 
 
     if past == "1":
@@ -32,6 +40,7 @@ def past_conclusion(gun, bullets, career):
     print(f"You are {name}, a {career}. Your equipment is an {gun} with {bullets} ammunitions.")
     print("Are you satisfied with your past? [Y/N]")
     past_answer = input(prompt)
+    cleanConsole()
     if (past_answer == 'N') or (past_answer == 'n'):
         past_menu()
     elif (past_answer != 'Y') and (past_answer != 'y'):
@@ -43,16 +52,17 @@ gun, bullets, career = past_menu()
 
 
 def start():
-    print(f"""\nYou are in the town of Still Water, with only your horse and equipment. You can go to 4 different places:
+    print(f"""You are in the town of Still Water, with only your horse and equipment. You can go to 4 different places:
 1. The Bar
 2. The Hotel
 3. The Precint
 4. The Bank\n
 Where do you go?""")
     town_choice = input(prompt)
+    cleanConsole()
 
     if town_choice == "1":
-        end
+        end()
     elif town_choice == "2":
         hotel1()
 
@@ -73,6 +83,7 @@ What do you do?
 1. Go to the kitchen
 2. Go back to the street""")
     hotel_choice1 = input(prompt)
+    cleanConsole()
     if hotel_choice1 == "1":
         hotel2()
     elif hotel_choice1 == "2":
@@ -89,6 +100,7 @@ What do you do?
 2. Sit on the corner of the table and ask for some ribs and a scotch
 3. Go back to the hotel lobby""")
     hotel_choice2 = input(prompt)
+    cleanConsole()
     if hotel_choice2 == "1":
         hotel3()
     elif hotel_choice2 == "2":
@@ -113,6 +125,6 @@ He tells you that these are citizen of still water wanting to go to Capital City
 # ------------------------------------------------------------------------------
 
 def end():
-    print("This part is not done yet")
+    print("This part is not done yet\nThank you for playing!")
 
 start()
